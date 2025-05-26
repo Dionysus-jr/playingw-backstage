@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata: 
+  name: Azure infra
+  description: Azure infrastructure provisioned via Terraform
+
+spec:
+  type: infrastructure
+  owner: user:guest
+  lifecycle: experimental
